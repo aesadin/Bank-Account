@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This App will take a name and starting amount from the user and let them deposit or withdraw from their account._
 
 ## Setup/Installation Requirements
 
@@ -27,7 +27,15 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 ## Specs
 
 1. Input user name and deposit amount.
-* Output: newAccount {} 
+* Input: Allison, $300
+* Output: newAccount {name: Allison, accountBalance: $300 }
+
+2. User inputs deposit amount or withdrawal amount.
+* Input: deposit $100 
+* Output: accountBalance + $100
+
+3. User can check balance of account with on click function.
+* Output: Account Balance: $400 
 
 ## Known Bugs
 
@@ -49,4 +57,4 @@ _If you have any issues or questions and concerns, please contact me at benjamin
 
 *MIT License*
 
-Copyright (c) 2020 **_Ben Russell_**
+Copyright (c) 2020 **_Ben Russell_, _Taylor Phillips_, _Allison Sadin_**
