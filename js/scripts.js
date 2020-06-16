@@ -12,3 +12,8 @@ BankAccount.prototype.withdraw = function(subtractNumber) {
   return (accountBalance - subtractNumber);
 }
 
+function displayAccountBalance(accountBalance) {
+  let displayBalance = $("#output");
+  let htmlBalance = "";
+  accountBalance.BankAccount.forEach(function())
+}
